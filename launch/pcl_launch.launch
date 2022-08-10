@@ -1,0 +1,8 @@
+<launch>
+<rosparam file="$(find pcl_stuff)/params/list_of_params.yaml" />
+<node 
+    name = "pcl_node"
+    pkg = "pcl_stuff"
+    output = "screen"
+    type = "pcl_stuff_node" />
+</launch>
