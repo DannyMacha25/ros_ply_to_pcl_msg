@@ -3,7 +3,7 @@ This is just a node that turns a ply file
 into a pcl msg and uploads it to a topic with 
 ROS. 
 
-To use it just clone the directory and change the
+To use it just clone the repository and change the
 path of the file inside the params file. There is 
 also a param for topic.
 
